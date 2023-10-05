@@ -1,0 +1,173 @@
+:root {
+    /* fonts */
+    --tf-title-font: 'Bebas Neue', sans-serif;
+    --tf-subtitle-font: 'Fira Sans', sans-serif;
+    --tf-heading-font: 'Bebas Neue', sans-serif;
+    --tf-body-font: 'Roboto', sans-serif;
+
+    /* colors */
+    --tf-dark-color: #212121;
+    --tf-light-color: #deeefb;
+    --tf-background-color: rgba(250, 250, 250, 0.8);
+
+    /* text styles */
+    --tf-title-color: var(--tf-dark-color);
+    --tf-font-size: 1.2rem;
+    --tf-font-weight: 400;
+    --tf-line-height: 1.5rem;
+}
+
+/* Element Styles */
+body {
+    font-family: var(--tf-body-font);
+    font-size: var(--tf-font-size);
+    font-weight: var(--tf-font-weight);
+    line-height: var(--tf-line-height);
+    color: var(--tf-dark-color);
+    background: var(--tf-background-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--tf-heading-font);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    color: var(--tf-title-color);
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a {
+    color: var(--tf--theme-500)
+}
+
+a:hover {
+    color: var(--tf-theme-400)
+}
+
+.btn-primary {
+    --bs-btn-bg: var(--tf-theme-600);
+    --bs-btn-border-color: var(--tf-theme-600);
+    --bs-btn-hover-bg: var(--tf-theme-700);
+    --bs-btn-hover-border-color: var(--tf-theme-700);
+    --bs-btn-active-bg: var(--tf-theme-800);
+    --bs-btn-active-border-color: var(--tf--theme-800);
+}
+
+/* #region Home section */
+#home {
+    background-image: url(/img/space_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    color: var(--tf-light-color);
+    position: relative;
+}
+
+#homeCover {
+    position: absolute;
+    -webkit-backdrop-filter: brightness(0.35) blur(5px);
+    backdrop-filter: brightness(0.35) blur(5px);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainTitle {
+    font-family: var(--tf-title-font);
+    font-size: 5rem;
+    line-height: 4rem;
+}
+
+.subTitle {
+    font-family: var(--tf-subtitle-font);
+    font-size: 1.28rem;
+    line-height: 1.1rem;
+    font-weight: 300;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+
+.mainLogo {
+    height: .5em;
+    padding-left: .5em
+}
+
+/* #endregion Home section */
+
+
+/* #region Section Styles */
+
+.section-page:nth-child(odd) {
+    background-color: var(--tf-theme-150);
+}
+
+.section-page:nth-child(even) {
+    background-color: var(--tf-theme-100);
+}
+
+
+/* region footer */
+footer.fixed-bottom {
+    background-color: var(--tf-theme-900);
+    z-index: 2;
+}
+
+footer .card {
+    background-color: var(--tf-theme-800);
+}
+
+footer i.bi {
+    font-size: 2rem;
+    transition: color 0.25s;
+}
+
+footer i.bi:hover {
+    color: var(--tf-theme-core);
+}
+
+/* endregion footer */
+
+
+/* # region -----MEDIA QUERIES----- */
+
+@media (min-width: 575.98px) {
+    .mainTitle {
+        font-size: 7rem;
+        line-height: 5.5rem;
+    }
+
+    .subTitle {
+        font-size: 1.7rem;
+        line-height: 1.2rem;
+        letter-spacing: .18rem;
+
+    }
+
+}
+
+
+@media (min-width: 767.98px) {}
+
+
+@media (min-width: 991.98px) {}
+
+
+@media (min-width: 1199.98px) {}
+
+
+@media (min-width: 1399.98px) {}
+
+/* # endregion ----MEDIA QUERIES */
