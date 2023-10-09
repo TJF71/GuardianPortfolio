@@ -118,6 +118,10 @@ a:hover {
     background-color: var(--tf-theme-100);
 }
 
+.section-page {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
 
 /* region footer */
 footer.fixed-bottom {
