@@ -101,8 +101,9 @@ a:hover {
 }
 
 .mainLogo {
-    height: .5em;
-    padding-left: .5em
+    height: 1.15em;
+    padding-bottom: .15em;
+    /* padding-left: .5em */
 }
 
 /* #endregion Home section */
