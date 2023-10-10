@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="css/themes.css" />
     <link rel="stylesheet" href="css/menuPill.css" />
     <link rel="stylesheet" href="css/iconCard.css" />
+    <link rel="stylesheet" href="css/hoverCard.css" />
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
@@ -161,10 +162,11 @@
                         iterate fast adn deliver. Take a look at my portfoloio and see if we can work together on your 
                         next project
                     </div>
-                    <a href ="/resume.pdf" class="btn btn-primary my-3">Download Resume</a>
                 </div>
+                <a href ="/resume.pdf" class="btn btn-primary my-3">Download Resume</a>
             </div>
         </section>
+
         <section id="skills" class="section">
             <div class="container">
                 <h2 class="text-center display-1 mb-5">What I Use</h2>
@@ -268,15 +270,86 @@
 
                  </div>       
         </section>
+
+        <!-- PROJECTS -->
         <section id="projects" class="section-page">
-            <h1>Projects</h1>
+            <div class="container"> 
+                <h2 clas="text-center display-1 mb-5">
+                    Things I Have Built
+                </h2>
+                <p class="my-5">
+                        Showcasing complete functional projects demonstrates what I can 
+                        bring to your project.  I built these projects from the ground up
+                        to demeonstrate skill with front-end, back-end, security, and
+                        database development.  All these projects are full-stack 
+                        applications that are published so you can demo them easily.
+                        <a href="#contact">Contact Me</a> to get a complete code walkthrough!
+                </p>
+                    <div class="row row-cols-1 row-col-lg-3 gy-5">
+                        <div class="col col-md-3">
+                            <div class="hc-wrapper">
+                                <div class="hc-card">
+                                    <picture>
+                                        <source srcset="/img/logos/BugTracker_600.jpg" media="(min-width: 992px)" />
+                                        <img src="/img/logos/BugTracker_200.jpg" />
+                                    </picture>
+                                    <div class="hc-content">
+                                        <p>
+                                            A full stack bug tracker app built with
+                                            ASP.NET MVC, C#, and SQL
+                                        </p>
+                                        <button class="btn btn-primary">Learn More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="col col-md-3">
+                            <div class="hc-wrapper">
+                                <div class="hc-card">
+                                    <picture>
+                                        <source srcset="/img/logos/Contact_Pro.png" media="(min-width: 992px)" />
+                                        <img src="/img/logos/Contact_Pro.png" />
+                                    </picture>
+                                    <div class="hc-content">
+                                        <p>
+                                            An Address Book for keeping track of important persons
+                                        </p>
+                                        <button class="btn btn-primary">Learn More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="col col-md-3">
+                            <div class="hc-wrapper">
+                                <div class="hc-card">
+                                    <picture>
+                                        <source srcset="/img/logos/Tech_Talk.png" media="(min-width: 992px)" />
+                                        <img src="/img/logos/Tech_Talk.png" />
+                                    </picture>
+                                    <div class="hc-content">
+                                        <p>
+                                            A blog for discussing tech.
+                                        </p>
+                                        <button class="btn btn-primary">Learn More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
         </section>
+
+        <!-- CHALLENGES -->
         <section id="challenges" class="section-page">
-            <h1> Challenges</h1>
         </section>
+
+        <!-- BLOG -->
         <section id="blog" class="section-page"> 
             <h1> Blog</h1>
         </section>
+
         <section id="contact" class="section-page">
             <h1> Contact</h1>
         </section>
