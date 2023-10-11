@@ -22,7 +22,7 @@
     border-color: var(--tf-theme-900);
     height: calc(100% - 2.5rem);
     transition: background-color 0.3s ease-in-out ,
-        box-shadow 0.3s ease-in-out
+        box-shadow 0.3s ease-in-out,
         border-color 0.3s ease-in-out;
 }
 .icon-card:hover .icon-card-body {
