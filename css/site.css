@@ -163,6 +163,7 @@ footer .card {
 footer i.bi {
     font-size: 2rem;
     transition: color 0.25s;
+    color: var(--tf-light-color)
 }
 
 footer i.bi:hover {
