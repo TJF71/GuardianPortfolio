@@ -674,9 +674,21 @@
     <footer class="fixed-bottom py-3" data-bs-theme="dark">
         <div class="container-fluid">
             <div class="row align-items-center g-3">
-                <div class="col-3">
+                
+                <!--LEFT FOOTER  -->
+                    <!-- diplay only logo on modile to mdi -->
+                <div class="d-lg-none col-3">
+                    <img src="/img/Logo_Only.svg" alt="Logo" height="40" />
+                </div>
+                               
+                
+                <!-- display full logo with name on mid and up -->
+                <div class="d-none d-lg-block col-3">
                     <img src="/img/Logo_Tom_Farrell.svg" alt="Logo" height="40" />
                 </div>
+                
+                
+                <!-- MID FOOTER -->
                 <div class="col-9 col-lg-6 d-flex justify-content-lg-center">
                     <div class="card shadow">
                         <div class="card-body">
@@ -684,6 +696,8 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- END FOOTER -->
                 <div class="d-none d-lg-block col-lg-3 text-lg-end">
                     <a href="https://linkedin.com/your-profile" target="_blank" class="text-decoration-none">
                         <i class="bi bi-linkedin p-2"></i>
