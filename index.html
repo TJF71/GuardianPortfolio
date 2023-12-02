@@ -36,7 +36,7 @@
 
 </head>
 
-<body data-tf-theme="yellow">
+<body data-tf-theme="yellow" onload="fetchBlogData()">
 
     <!-- MENU PILL START -->
     <div id="menuPillContainer" class="navbar navbar-dark">
@@ -155,6 +155,7 @@
         </section>
 
         <!-- SKILLS -->
+        <!-- C# and .NET Core -->
         <section id="skills" class="section-page">
             <div class="container">
                 <h2 class="text-center display-1 mb-5">What I Use</h2>
@@ -183,7 +184,7 @@
                             </div>
                         </div>
                     </div>
-
+                    <!--HTML5, CSS BOOTSTRAP-->
                     <div class="col-lg-6">
                         <div class="icon-card">
                             <div class="icon-card-header">
@@ -207,7 +208,7 @@
                             </div>
                         </div>
                     </div>
-
+                    <!-- Javascript -->
                     <div class="col-lg-4">
                         <div class="icon-card">
                             <div class="icon-card-header">
@@ -225,7 +226,7 @@
                             </div>
                         </div>
                     </div>
-
+                    <!-- PostGress -->
                     <div class="col-lg-4">
                         <div class="icon-card">
                             <div class="icon-card-header">
@@ -243,7 +244,7 @@
                             </div>
                         </div>
                     </div>
-
+                    <!-- Git and GitHub -->
                     <div class="col-lg-4">
                         <div class="icon-card">
                             <div class="icon-card-header">
@@ -383,7 +384,7 @@
                                     <p>
                                         A Palindrome Checker
                                     </p>
-                                    <a class="btn btn-primary"  href="https://inquisitive-rugelach-efae03.netlify.app">
+                                    <a class="btn btn-primary" href="https://inquisitive-rugelach-efae03.netlify.app">
                                         Learn More
                                     </a>
                                 </div>
@@ -400,7 +401,7 @@
                                     <img src="/img/logos/TurnAroundTrials.png" />
                                 </picture>
                                 <div class="hc-content">
-                                    <p>Enter a string.  Any String.</p>
+                                    <p>Enter a string. Any String.</p>
                                     <p>And get the word in reverse</p>
                                     <a class="btn btn-primary" href="">Learn More</a>
                                 </div>
@@ -419,7 +420,8 @@
                                 <div class="hc-content">
                                     <p>Boil Your Events To The Basics </p>
                                     <p>With Calendar Caldron</p>
-                                    <a class="btn btn-primary" href="https://silver-crumble-f42a35.netlify.app/">Learn More</a>
+                                    <a class="btn btn-primary" href="https://silver-crumble-f42a35.netlify.app/">Learn
+                                        More</a>
                                 </div>
                             </div>
                         </div>
@@ -436,7 +438,8 @@
                                 <div class="hc-content">
                                     <p> A Twist On An Old Challenge</p>
                                     <p> That Puts You In Charge</p>
-                                    <a class="btn btn-primary" href = "https://sensational-duckanoo-0fe26f.netlify.app/app">Learn More</a>
+                                    <a class="btn btn-primary"
+                                        href="https://sensational-duckanoo-0fe26f.netlify.app/app">Learn More</a>
                                 </div>
                             </div>
                         </div>
@@ -453,7 +456,8 @@
                                 <div class="hc-content">
                                     <p>Find Out What's Playing</p>
                                     <p>In Your Living Room Tonight</p>
-                                    <a class="btn btn-primary" href="https://cute-douhua-f8906e.netlify.app/app" >Learn More</a>
+                                    <a class="btn btn-primary" href="https://cute-douhua-f8906e.netlify.app/app">Learn
+                                        More</a>
                                 </div>
                             </div>
                         </div>
@@ -465,158 +469,19 @@
 
         </section>
 
-        <!-- BLOG -->
-        <section id="blog" class="section-page">
+        <!-- BLOG SECTION -->
+        <section id="blogs" class="section-page">
             <div class="container">
                 <h2 class="text-center display-1 mb-5">Stuff I write about</h2>
                 <p>
                     I write on my blog on a regular basis. I think it's importan to
-                    share knowlege with others, and I find it helps me understand code betere
+                    share knowlege with others, and I find it helps me understand code better
                 </p>
-                <div id="blogs">
-                    <article class="card mb-4 blog-article">
-                        <div class="row g-0 blog-row">
-                            <div class="col-12 col-lg-4 blog-header">
-                                <a href="#" class="blog-image-link">
-                                    <img src="/img/Blog/Blog_FlyingGirl.jpg" class="blog-image" />
-                                </a>
-                                <div class="blog-date">
-                                    <div class="blog-day">11</div>
-                                    <div class="blog-month">January</div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-lg-8">
-                                <div class="card-body h-100 d-flex flex-column justify-content-around">
-                                    <h2 class="card-title">Make SQL queries fly!</h2>
-                                    <p class="card-tex line-clamp">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, unde possimus.
-                                        Incidunt ipsa praesentium cumque soluta, laboriosam inventore nobis, quae
-                                        delectus repudiandae
-                                        dolorum aut nulla cupiditate earum! Eveniet, error nam!
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, unde possimus.
-                                        Incidunt ipsa praesentium cumque soluta, laboriosam inventore nobis, quae
-                                        delectus repudiandae
-                                        dolorum aut nulla cupiditate earum! Eveniet, error nam!
-                                    </p>
-                                    <div>
-                                        <a href="#" class="btn btn-primary">Read More</a>
-                                    </div>
-                                    <p class="card-text">
-                                        <small class="text-muted">Published 3 days ago</small>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="card mb-4 blog-article">
-                        <div class="row g-0 blog-row">
-                            <div class="col-12 col-lg-4 blog-header">
-                                <a href="#" class="blog-image-link">
-                                    <img src="/img/Blog/Blog_CodeTag.jpg" class="blog-image" />
-                                </a>
-                                <div class="blog-date">
-                                    <div class="blog-day">11</div>
-                                    <div class="blog-month">January</div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-lg-8">
-                                <div class="card-body h-100 d-flex flex-column justify-content-around">
-                                    <h2 class="card-title">Make SQL queries fly!</h2>
-                                    <p class="card-tex line-clamp">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, unde possimus.
-                                        Incidunt ipsa praesentium cumque soluta, laboriosam inventore nobis, quae
-                                        delectus repudiandae
-                                        dolorum aut nulla cupiditate earum! Eveniet, error nam!
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, unde possimus.
-                                        Incidunt ipsa praesentium cumque soluta, laboriosam inventore nobis, quae
-                                        delectus repudiandae
-                                        dolorum aut nulla cupiditate earum! Eveniet, error nam!
-                                    </p>
-                                    <div>
-                                        <a href="#" class="btn btn-primary">Read More</a>
-                                    </div>
-                                    <p class="card-text">
-                                        <small class="text-muted">Published 3 days ago</small>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="card mb-4 blog-article">
-                        <div class="row g-0 blog-row">
-                            <div class="col-12 col-lg-4 blog-header">
-                                <a href="#" class="blog-image-link">
-                                    <img src="/img/Blog/Blog_Database.jpg" class="blog-image" />
-                                </a>
-                                <div class="blog-date">
-                                    <div class="blog-day">11</div>
-                                    <div class="blog-month">January</div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-lg-8">
-                                <div class="card-body h-100 d-flex flex-column justify-content-around">
-                                    <h2 class="card-title">Make SQL queries fly!</h2>
-                                    <p class="card-tex line-clamp">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, unde possimus.
-                                        Incidunt ipsa praesentium cumque soluta, laboriosam inventore nobis, quae
-                                        delectus repudiandae
-                                        dolorum aut nulla cupiditate earum! Eveniet, error nam!
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, unde possimus.
-                                        Incidunt ipsa praesentium cumque soluta, laboriosam inventore nobis, quae
-                                        delectus repudiandae
-                                        dolorum aut nulla cupiditate earum! Eveniet, error nam!
-                                    </p>
-                                    <div>
-                                        <a href="#" class="btn btn-primary">Read More</a>
-                                    </div>
-                                    <p class="card-text">
-                                        <small class="text-muted">Published 3 days ago</small>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="card mb-4 blog-article">
-                        <div class="row g-0 blog-row">
-                            <div class="col-12 col-lg-4 blog-header">
-                                <a href="#" class="blog-image-link">
-                                    <img src="/img/Blog/Blog_DecisionRoad.jpg" class="blog-image" />
-                                </a>
-                                <div class="blog-date">
-                                    <div class="blog-day">11</div>
-                                    <div class="blog-month">January</div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-lg-8">
-                                <div class="card-body h-100 d-flex flex-column justify-content-around">
-                                    <h2 class="card-title">Make SQL queries fly!</h2>
-                                    <p class="card-tex line-clamp">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, unde possimus.
-                                        Incidunt ipsa praesentium cumque soluta, laboriosam inventore nobis, quae
-                                        delectus repudiandae
-                                        dolorum aut nulla cupiditate earum! Eveniet, error nam!
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, unde possimus.
-                                        Incidunt ipsa praesentium cumque soluta, laboriosam inventore nobis, quae
-                                        delectus repudiandae
-                                        dolorum aut nulla cupiditate earum! Eveniet, error nam!
-                                    </p>
-                                    <div>
-                                        <a href="#" class="btn btn-primary">Read More</a>
-                                    </div>
-                                    <p class="card-text">
-                                        <small class="text-muted">Published 3 days ago</small>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-
-
+                <div id="blog">
+                    <!-- Template Here -->
 
                 </div>
-
             </div>
-
         </section>
 
         <!-- CONTACT -->
@@ -670,20 +535,20 @@
     <footer class="fixed-bottom py-3" data-bs-theme="dark">
         <div class="container-fluid">
             <div class="row align-items-center g-3">
-                
+
                 <!--LEFT FOOTER  -->
-                    <!-- diplay only logo on modile to mdi -->
+                <!-- diplay only logo on modile to mdi -->
                 <div class="d-lg-none col-3">
                     <img src="/img/Logo_Only.svg" alt="Logo" height="50" />
                 </div>
-                               
-                
+
+
                 <!-- display full logo with name on mid and up -->
                 <div class="d-none d-lg-block col-3">
                     <img src="/img/Logo_Tom_Farrell.svg" alt="Logo" height="50" />
                 </div>
-                
-                
+
+
                 <!-- MID FOOTER -->
                 <div class="col-9 col-lg-6 d-flex justify-content-lg-center">
                     <div class="card shadow">
@@ -1053,23 +918,54 @@
         </div>
     </div>
 
+    <!-- BLOG TEMPLATE -->
+    <template id="blog-template">
+        <article class="card mb-4 blog-article">
+            <div class="row g-0 blog-row">
+                <div class="col-12 col-lg-4 blog-header">
+
+                    <a class="blog-image-link" data-blog="imageLink"></a>
 
 
+                    <div class="blog-date">
+                        <div class="blog-day" data-blog="day"></div>
+                        <div class="blog-month" data-blog="month"></div>
+                    </div>
 
+                </div>
+                <div class="col-12 col-lg-8">
+                    <div class="card-body h-100 d-flex flex-column justify-content-around">
+                        <h2 class="card-title" data-blog="title"></h2>
+                        <p class="card-text line-clamp" data-blog="content"></p>
 
-
+                        <div>
+                            <a href="" class="btn btn-primary" data-blog="readMoreLink">Read More</a>
+                        </div>
+                        <p class="card-text">
+                            <small class="text-muted" data-blog="publishedDate"></small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </template>
 
 
 
 
     <!--Bootstrap JS  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+
     <script>
         const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
         const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
     </script>
+
+    <script src="/js/blogApi.js">
+    </script>
+
 </body>
 
 </html>
