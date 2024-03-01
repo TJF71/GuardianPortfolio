@@ -42,3 +42,6 @@
     height: 5rem;
 }
 
+.subTitle--padded {
+    padding-top: 10px; /* Adjust the value as needed */
+}
